@@ -1,0 +1,81 @@
+@import "null.css";
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+.container {
+    max-width: 810px;
+    margin: 0 auto;
+}
+#title {
+    color: #1e212c;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: left;
+    margin: 190px 0px 92px;
+}
+img {
+    margin-bottom: 60px;
+    max-width: 100%;
+}
+
+div .main-text {
+    color: #1e212c;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+.main-text + p {
+    margin-bottom: 20px;
+}
+.about + p {
+    margin-bottom: 48px;
+}
+.about {
+    color: #424551;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.quotation p {
+    color: #1e212c;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 48px;
+}
+.list-container p {
+    color: #424551;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 24px;
+}
+div ul {
+    color: #424551;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.list-item {
+    padding-left: 32px;
+    margin-bottom: 4px;
+}
+.container > p {
+    color: #424551;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+    padding-bottom: 92px;
+}
